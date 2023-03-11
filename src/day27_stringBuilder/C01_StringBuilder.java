@@ -33,11 +33,13 @@ public class C01_StringBuilder {
         System.out.println(sb3.length());//11
 
         sb3.append("  : Tc No");
+        System.out.println(sb3);//12345678901  : Tc No
         System.out.println(sb3.capacity());//24
         System.out.println(sb3.length());//20
 
-
-
+        String str = "Java candir";
+        sb3.append(str,4,str.length());
+        System.out.println(sb3);//12345678901  : Tc No candir
 
 
     }
