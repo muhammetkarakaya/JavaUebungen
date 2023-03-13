@@ -8,6 +8,8 @@ public class C02_MetniTerseCevirme {
 
         StringBuilder sb =new StringBuilder(str);
         sb.reverse();
-        System.out.println(sb);
+        System.out.println(sb);//ridnac avaj
+
+        System.out.println(str);//java candir
     }
 }
