@@ -18,7 +18,7 @@ public class C04_KarelerinToplami {
         int karelerToplami=0;
 
         for (int each : arr
-        ) {
+             ) {
 
             karelerToplami += each*each ;
         }

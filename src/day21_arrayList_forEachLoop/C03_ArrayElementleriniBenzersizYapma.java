@@ -18,7 +18,7 @@ public class C03_ArrayElementleriniBenzersizYapma {
         // list'te yoksa ekleyelim, varsa eklemeyelim
 
         for (int each: arr
-        ) {
+             ) {
 
             if (!benzersizElementListesi.contains(each)){
                 benzersizElementListesi.add(each);

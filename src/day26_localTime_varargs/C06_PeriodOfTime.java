@@ -1,7 +1,6 @@
 package day26_localTime_varargs;
 
 import java.time.LocalDate;
-import java.time.LocalTime;
 import java.time.Period;
 
 public class C06_PeriodOfTime {

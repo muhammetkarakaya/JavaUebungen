@@ -36,7 +36,7 @@ public class C03_KimBuyuk {
         LocalDate tarih2 = LocalDate.of(yil,ay,gun);
 
         System.out.println(tarih2.isAfter(tarih1) ?
-                "Buyuk olan "+isim1 :
-                "Buyuk olan "+isim2);
+                            "Buyuk olan "+isim1 :
+                            "Buyuk olan "+isim2);
     }
 }

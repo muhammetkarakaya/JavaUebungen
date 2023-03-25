@@ -20,7 +20,7 @@ public class C08_Varargs {
         int toplam=0;
 
         for (int each:a
-        ) {
+             ) {
             toplam += each;
         }
         System.out.println("Toplam : " + toplam);

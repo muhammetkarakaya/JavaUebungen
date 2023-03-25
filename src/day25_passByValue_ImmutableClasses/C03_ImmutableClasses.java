@@ -3,7 +3,7 @@ package day25_passByValue_ImmutableClasses;
 public class C03_ImmutableClasses {
     public static void main(String[] args) {
         /*
-            Java'da bir class ve o class'dan olusturulan objeler
+            Java'da bir class ve oclass'dan olusturulan objeler
             ya mutable'dir, ya da immutable'dir.
 
             Java metinsel ifadeleri atayabilecegimiz 3 class olusturmustur

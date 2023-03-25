@@ -22,7 +22,7 @@ public class C02_ForEachLoop {
 
         int toplam =0;
         for (int each: arr
-        ) {
+             ) {
             toplam += each;
         }
 
@@ -31,7 +31,7 @@ public class C02_ForEachLoop {
         // arr'in elementlerinden 3 ile bolunebilenleri yazdirin
 
         for (int each: arr
-        ) {
+             ) {
             if (each %3 ==0) System.out.print(each + " ");
         }
 
@@ -41,7 +41,7 @@ public class C02_ForEachLoop {
         int sayac=0;
 
         for (int each: arr
-        ) {
+             ) {
 
             if (each %2 != 0) sayac++;
         }

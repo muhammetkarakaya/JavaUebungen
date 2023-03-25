@@ -1,15 +1,20 @@
 package day27_stringBuilder;
 
 public class C02_MetniTerseCevirme {
+
     public static void main(String[] args) {
-        //verilen metrni terse cevir
 
-        String str = "java candir";
+        // Verilen bir metni tersine cevirin
 
-        StringBuilder sb =new StringBuilder(str);
+        String str= "Java Candir.";
+
+        StringBuilder sb = new StringBuilder(str);
+
+        System.out.println(sb.reverse());
+
         sb.reverse();
-        System.out.println(sb);//ridnac avaj
 
-        System.out.println(str);//java candir
+        System.out.println(sb);
+
     }
 }
